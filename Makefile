@@ -1,7 +1,7 @@
+TARGET := iphone:clang:13.5:7.1
+ARCHS = armv7 armv7s arm64 arm64e
+
 include theos/makefiles/common.mk
-
-ARCHS = armv7 arm64
-
 TWEAK_NAME = AlwaysForwardNotifications
 AlwaysForwardNotifications_FILES = Tweak.xm
 

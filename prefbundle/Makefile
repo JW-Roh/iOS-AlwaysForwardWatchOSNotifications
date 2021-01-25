@@ -1,5 +1,7 @@
-include theos/makefiles/common.mk
+TARGET := iphone:clang:13.5:7.1
+ARCHS = armv7 armv7s arm64 arm64e
 
+include theos/makefiles/common.mk
 BUNDLE_NAME = prefbundle
 prefbundle_FILES = prefbundle.mm
 prefbundle_INSTALL_PATH = /Library/PreferenceBundles

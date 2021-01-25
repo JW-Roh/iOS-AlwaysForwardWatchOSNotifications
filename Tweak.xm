@@ -1,3 +1,5 @@
+#import <UIKit/UIKit.h>
+
 NSUserDefaults *prefs = [[NSUserDefaults alloc] initWithSuiteName:@"com.mohammadag.alwaysforwardwatchosnotifications"];
 
 %hook BLTBulletinDistributor
